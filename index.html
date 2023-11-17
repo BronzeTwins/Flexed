@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main-title flex">
+        <div class="main-title-mail flex">
+          <img src="./images/mail_icon.png" alt="mail icon" />
+          <p>
+            <a class="links-text-decoration" href="mailto:noreply@flex.com"
+              >Email: noreply@flex.com</a
+            >
+          </p>
+        </div>
+        <div class="flexed-title">Flexed</div>
+        <div class="main-title-contact flex">
+          <img src="./images/phone_icon.png" alt="phone icon" />
+          <p>
+            <a class="links-text-decoration" href="#contact-us-section"
+              >Contact : +71 71234567</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="main-navbar flex">
+        <input type="checkbox" id="nav-check" class="none" />
+        <div class="nav-btn none">
+          <label for="nav-check">
+            <i class="fa fa-bars fa-lg"></i>
+          </label>
+        </div>
+        <!-- <div id="navbar"> -->
+        <div class="nav-links">
+          <a class="links-text-decoration" href="#home" class="active">Home</a>
+          <a class="links-text-decoration" href="#aboutus">About</a>
+          <a class="links-text-decoration" href="#yoga">Yoga</a>
+          <a class="links-text-decoration" href="#pricing">Pricing</a>
+          <a class="links-text-decoration" href="#yogaonline">Yoga Online</a>
+          <a class="links-text-decoration" href="#contactus">Contact us</a>
+        </div>
+      </div>
+    </header>
+    <div class="main-container">
+      <div class="slideshow-container">
+        <div class="slideshow-title">
+          <h1 class="color-green">Gather</h1>
+          <h1>New Body Energy</h1>
+          <a class="button" href="#contactus">CONTACT US</a>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="./images/slides/slide1.jpg" />
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="./images/slides/slide2.jpg" />
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="./images/slides/slide3.jpg" />
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="./images/slides/slide4.jpg" />
+          <div class="text">Caption Four</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <div class="wave-image">
+        <img src="./images/croos.png" alt="wave" />
+      </div>
+      <div class="about-us-container flex" id="aboutus">
+        <div class="about-us-left boxshadow">
+          <div class="about-us-left-title flex">
+            <h1 class="color-green">About</h1>
+
+            <h1>us</h1>
+          </div>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
+            consectetur quam rem nobis ut, aut tempora fugiat possimus, iusto
+            vitae natus. Quasi itaque doloribus, ipsam temporibus quas autem,
+            repellendus veniam distinctio rem nobis assumenda natus, quos
+            inventore eligendi accusantium praesentium fugiat nulla tempore.
+            Debitis dicta praesentium labore doloremque corporis odit? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maxime nobis
+            cupiditate odit molestias architecto earum quod harum iure
+            doloribus.
+          </p>
+        </div>
+        <div class="about-us-right"></div>
+      </div>
+      <div class="yoga-container flex" id="yoga">
+        <div class="yoga-title flex">
+          <h1 class="color-green">How to</h1>
+          <h1>We Do Yoga</h1>
+        </div>
+        <div class="yoga-images-container">
+          <div class="yoga-image-text item-1">
+            <img src="./images/1.png" alt="yoga 1" />
+            <h3>ASHTANGA YOGA</h3>
+            <p>
+              simply dummy text of the printing and typesetting industry. Lorem
+            </p>
+          </div>
+          <div class="yoga-image-text item-2">
+            <img src="./images/2.png" alt="yoga 2" />
+            <h3>HATHA YOGA</h3>
+            <p>
+              simply dummy text of the printing and typesetting industry. Lorem
+            </p>
+          </div>
+          <div class="yoga-image-text item-3">
+            <img src="./images/3.png" alt="yoga 3" />
+            <h3>KUNDALINI YOGA</h3>
+            <p>
+              simply dummy text of the printing and typesetting industry. Lorem
+            </p>
+          </div>
+          <a
+            class="button"
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Yoga"
+            >READ ME</a
+          >
+        </div>
+      </div>
+      <div class="yoga-everyday-container boxshadow">
+        <div class="yoga-everyday flex">
+          <h1>Do yoga everyday for great health</h1>
+          <img src="./images/yoga.png" alt="yoga" />
+
+          <p class="color-green">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing
+          </p>
+        </div>
+      </div>
+      <div class="princing-container" id="pricing">
+        <div class="pricing-title flex">
+          <h1 class="color-green">Our</h1>
+          <h1>Pricing</h1>
+        </div>
+        <div class="pricing-card-container flex">
+          <div class="pricing-card boxshadow border_radius_standard">
+            <div class="pricing-card-title">
+              <h2>BASIC</h2>
+            </div>
+            <div class="pricing-card-amount">
+              <h1 class="color-green">$40</h1>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+            <a class="button border_radius_standard" href="#">SELECT PLAN</a>
+          </div>
+          <div class="pricing-card boxshadow border_radius_standard">
+            <div class="pricing-card-title bg-green">
+              <h2>STANDARD</h2>
+            </div>
+            <div class="pricing-card-amount">
+              <h1><span class="color-green">$</span>50</h1>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+            <a class="button border_radius_standard" href="#">SELECT PLAN</a>
+          </div>
+          <div class="pricing-card boxshadow border_radius_standard">
+            <div class="pricing-card-title">
+              <h2>PREMIUM</h2>
+            </div>
+            <div class="pricing-card-amount">
+              <h1 class="color-green">$60</h1>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+            <a class="button border_radius_standard" href="#">SELECT PLAN</a>
+          </div>
+        </div>
+      </div>
+      <div class="benefits-container" id="yogaonline">
+        <div class="benefits-title flex">
+          <h1 class="color-green">The Benefits</h1>
+          <h1>of Yoga Online</h1>
+        </div>
+        <div class="benefits-video flex">
+          <video width="80%" height="auto" controls>
+            <source src="./videos/1.mp4" type="video/mp4" />
+            <source src="./videos/1.ogg" type="video/ogg" />
+            <source src="./videos/1.webm" type="video/webm" />
+            your browser does not support the video tag
+          </video>
+        </div>
+      </div>
+      <div class="newsletter-container flex" id="contactus">
+        <div class="newsletter-title">
+          <h1>Sign Up For Our Newsletter</h1>
+        </div>
+        <div class="newsletter-email flex">
+          <input type="email" name="newsletteremail" id="newsletteremail" />
+          <a class="button" href="mailto:noreply@flex.com">Subscribe</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/script.js"></script>
+</html>
